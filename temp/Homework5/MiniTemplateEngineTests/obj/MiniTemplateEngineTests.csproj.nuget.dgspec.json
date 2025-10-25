@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj": {}
+  },
+  "projects": {
+    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj",
+        "projectName": "MiniHttpServer",
+        "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj",
+        "packagesPath": "/home/maygirlcry/.nuget/packages/",
+        "outputPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maygirlcry/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
+                "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj",
+        "projectName": "MiniTemplateEngine",
+        "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj",
+        "packagesPath": "/home/maygirlcry/.nuget/packages/",
+        "outputPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maygirlcry/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj",
+        "projectName": "MiniTemplateEngineTests",
+        "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj",
+        "packagesPath": "/home/maygirlcry/.nuget/packages/",
+        "outputPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maygirlcry/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj": {
+                "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj"
+              },
+              "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
+                "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MSTest": {
+              "target": "Package",
+              "version": "[3.6.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
