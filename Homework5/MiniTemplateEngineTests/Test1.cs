@@ -20,7 +20,7 @@ public class MiniTemplateEngineTests
     [TestMethod]
     public void RenderFromString_IfTrue_ShowsActive()
     {
-        var template = "$if(user.IsActive)<p>Active</p>$else<p>Not Active</p>$endif";
+        var template = "$if(user.IsActive)\n<p>Active</p>\n$else\n<p>Not Active</p>\n$endif";
         var data = new { IsActive = true };
         var result = _renderer.RenderFromString(template, data);
         Assert.AreEqual("<p>Active</p>", result);
@@ -29,7 +29,7 @@ public class MiniTemplateEngineTests
     [TestMethod]
     public void RenderFromString_IfFalse_ShowsNotActive()
     {
-        var template = "$if(user.IsActive)<p>Active</p>$else<p>Not Active</p>$endif";
+        var template = "$if(user.IsActive)\n<p>Active</p>\n$else\n<p>Not Active</p>\n$endif";
         var data = new { IsActive = false };
         var result = _renderer.RenderFromString(template, data);
         Assert.AreEqual("<p>Not Active</p>", result);
@@ -38,7 +38,7 @@ public class MiniTemplateEngineTests
     [TestMethod]
     public void RenderFromString_Foreach_RendersItems()
     {
-        var template = "$foreach(var item in user.Items)<p>${item.Name}</p>$endfor";
+        var template = "$foreach(var item in user.Items)\n<p>${item.Name}</p>\n$endfor";
         var data = new { Items = new[] { new { Name = "Apple" }, new { Name = "Banana" } } };
         var result = _renderer.RenderFromString(template, data);
         Assert.AreEqual("<p>Apple</p><p>Banana</p>", result);
@@ -90,7 +90,7 @@ public class MiniTemplateEngineTests
     [TestMethod]
     public void RenderFromString_ForeachEmptyList_RendersNothing()
     {
-        var template = "$foreach(var item in user.Items)<p>${item.Name}</p>$endfor";
+        var template = "$foreach(var item in user.Items)\n<p>${item.Name}</p>\n$endfor";
         var data = new { Items = new object[] { } };
         var result = _renderer.RenderFromString(template, data);
         Assert.AreEqual("", result);
@@ -99,7 +99,7 @@ public class MiniTemplateEngineTests
     [TestMethod]
     public void RenderFromString_CombinedTemplate_RendersAll()
     {
-        var template = "<p>${user.Name}</p>$if(user.IsActive)<p>Active</p>$endif$foreach(var item in user.Items)<p>${item.Name}</p>$endfor";
+        var template = "<p>${user.Name}</p>\n$if(user.IsActive)\n<p>Active</p>\n$endif\n$foreach(var item in user.Items)\n<p>${item.Name}</p>\n$endfor";
         var data = new { Name = "John", IsActive = true, Items = new[] { new { Name = "Item1" } } };
         var result = _renderer.RenderFromString(template, data);
         Assert.AreEqual("<p>John</p><p>Active</p><p>Item1</p>", result);
