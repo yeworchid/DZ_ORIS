@@ -40,12 +40,12 @@ namespace MiniHttpServer.Services
                         mailMessage.BodyEncoding = Encoding.UTF8;
                         mailMessage.SubjectEncoding = Encoding.UTF8;
 
-                        // вот эта часть прикладывает zip
-                        if (!string.IsNullOrEmpty(zipFilePath) && File.Exists(zipFilePath))
-                        {
-                            var attachment = new Attachment(zipFilePath);
-                            mailMessage.Attachments.Add(attachment);
-                        }
+                        // прикладываем zip (почта блокирует архив)
+                        // if (!string.IsNullOrEmpty(zipFilePath) && File.Exists(zipFilePath))
+                        // {
+                        //     var attachment = new Attachment(zipFilePath);
+                        //     mailMessage.Attachments.Add(attachment);
+                        // }
 
                         Console.WriteLine("все готово, шлем письмо...");
                         await smtpClient.SendMailAsync(mailMessage);

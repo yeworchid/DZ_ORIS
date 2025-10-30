@@ -10,3 +10,15 @@
 /home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/obj/Debug/net9.0/refint/MiniTemplateEngine.dll
 /home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.pdb
 /home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/obj/Debug/net9.0/ref/MiniTemplateEngine.dll
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/bin/Debug/net9.0/MiniTemplateEngine.deps.json
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/bin/Debug/net9.0/MiniTemplateEngine.dll
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/bin/Debug/net9.0/MiniTemplateEngine.pdb
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.AssemblyInfoInputs.cache
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.AssemblyInfo.cs
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.csproj.CoreCompileInputs.cache
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.sourcelink.json
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.dll
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/refint/MiniTemplateEngine.dll
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/MiniTemplateEngine.pdb
+/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/Debug/net9.0/ref/MiniTemplateEngine.dll

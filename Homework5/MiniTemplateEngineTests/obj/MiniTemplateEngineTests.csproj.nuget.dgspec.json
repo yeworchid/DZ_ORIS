@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj": {}
+    "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj": {}
   },
   "projects": {
-    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj": {
+    "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/MiniHttpServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj",
+        "projectUniqueName": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/MiniHttpServer.csproj",
         "projectName": "MiniHttpServer",
-        "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj",
-        "packagesPath": "/home/maygirlcry/.nuget/packages/",
-        "outputPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/obj/",
+        "projectPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/MiniHttpServer.csproj",
+        "packagesPath": "/Users/tanya_plesen/.nuget/packages/",
+        "outputPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/maygirlcry/.nuget/NuGet/NuGet.Config"
+          "/Users/tanya_plesen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
-                "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj"
+              "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
+                "projectPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj"
               }
             }
           }
@@ -43,7 +42,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -70,27 +69,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
+    "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj",
+        "projectUniqueName": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj",
         "projectName": "MiniTemplateEngine",
-        "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj",
-        "packagesPath": "/home/maygirlcry/.nuget/packages/",
-        "outputPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/obj/",
+        "projectPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj",
+        "packagesPath": "/Users/tanya_plesen/.nuget/packages/",
+        "outputPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/maygirlcry/.nuget/NuGet/NuGet.Config"
+          "/Users/tanya_plesen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -109,7 +107,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -130,38 +128,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj": {
+    "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj",
+        "projectUniqueName": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj",
         "projectName": "MiniTemplateEngineTests",
-        "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj",
-        "packagesPath": "/home/maygirlcry/.nuget/packages/",
-        "outputPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngineTests/obj/",
+        "projectPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngineTests/MiniTemplateEngineTests.csproj",
+        "packagesPath": "/Users/tanya_plesen/.nuget/packages/",
+        "outputPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngineTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/maygirlcry/.nuget/NuGet/NuGet.Config"
+          "/Users/tanya_plesen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj": {
-                "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj"
+              "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/MiniHttpServer.csproj": {
+                "projectPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/MiniHttpServer.csproj"
               },
-              "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
-                "projectPath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj"
+              "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj": {
+                "projectPath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniTemplateEngine/MiniTemplateEngine.csproj"
               }
             }
           }
@@ -176,7 +173,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -207,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

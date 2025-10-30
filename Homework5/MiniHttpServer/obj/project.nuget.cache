@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qzeFiKqRN1c=",
+  "dgSpecHash": "EqGQ3KkrBBw=",
   "success": true,
-  "projectFilePath": "/home/maygirlcry/Study/DZ_ORIS/Homework5/MiniHttpServer/MiniHttpServer.csproj",
+  "projectFilePath": "/Users/tanya_plesen/git/орис/DZ_ORIS/temp/Homework5/MiniHttpServer/MiniHttpServer.csproj",
   "expectedPackageFiles": [
-    "/home/maygirlcry/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.22.1/microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+    "/Users/tanya_plesen/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.22.1/microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
   ],
   "logs": []
 }
