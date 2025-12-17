@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.MainPage"
+             Title="Игра">
+
+    <Grid RowDefinitions="Auto,*" ColumnDefinitions="*,200" Padding="10">
+
+        <!-- Заголовок -->
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+               Text="Игровое поле" FontSize="20" HorizontalOptions="Center" />
+
+        <!-- Поле для рисования -->
+        <GraphicsView x:Name="GameField"
+                      Grid.Row="1" Grid.Column="0"
+                      Background="LightGray"
+                      HeightRequest="400" />
+
+        <!-- Панель справа -->
+        <VerticalStackLayout Grid.Row="1" Grid.Column="1"
+                             Spacing="15" Padding="10">
+
+            <Label Text="Введите имя:" FontAttributes="Bold" />
+            <Entry x:Name="NameEntry" Placeholder="Ваше имя" />
+            <Button Text="Установить имя" 
+                    Clicked="OnSetNameClicked"
+                    BackgroundColor="LightCoral" />
+
+            <Label Text="Игрок 1:" FontAttributes="Bold" />
+            <Label x:Name="Player1Name" Text="-" />
+
+            <Label Text="Игрок 2:" FontAttributes="Bold" />
+            <Label x:Name="Player2Name" Text="-" />
+
+            <Button Text="Новая случайная точка" 
+                    Clicked="OnNewGameClicked"
+                    BackgroundColor="LightBlue" />
+
+            <Label Text="Ходы:" FontAttributes="Bold" />
+            <ScrollView VerticalOptions="FillAndExpand">
+                <VerticalStackLayout x:Name="MovesHistory" Spacing="5" />
+            </ScrollView>
+
+        </VerticalStackLayout>
+
+    </Grid>
+
+</ContentPage>
